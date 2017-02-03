@@ -29,6 +29,8 @@ And if it were possible, a changelog of the firmware itself.
 Run 'make check' to check that WHENCE is consistent with the
 repository contents.
 
+Run 'sudo make install' to install the firmware to the appropriate directories
+
 Ideally, your commit should contain a Signed-Off-By: from someone
 authoritative on the licensing of the firmware in question (i.e. from
 within the company that owns the code).

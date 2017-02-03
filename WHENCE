@@ -8,6 +8,33 @@ kernel.
 
 --------------------------------------------------------------------------
 
+Driver: ipts -- IPTS device
+
+File: intel/ipts/iaPreciseTouchDescriptor.bin
+File: intel/ipts/SurfaceTouchServicingDescriptorMSHW0076.bin
+File: intel/ipts/SurfaceTouchServicingTouchBlobMSHW0076.bin
+File: intel/ipts/SurfaceTouchServicingKernelSKLMSHW0076.bin
+File: intel/ipts/SurfaceTouchServicingSFTConfigMSHW0076.bin
+File: intel/ipts/SurfaceTouchServicingDescriptorMSHW0078.bin
+File: intel/ipts/SurfaceTouchServicingTouchBlobMSHW0078.bin
+File: intel/ipts/SurfaceTouchServicingKernelSKLMSHW0078.bin
+File: intel/ipts/SurfaceTouchServicingSFTConfigMSHW0078.bin
+File: intel/ipts/SurfaceTouchServicingDescriptorMSHW0079.bin
+File: intel/ipts/SurfaceTouchServicingTouchBlobMSHW0079.bin
+File: intel/ipts/SurfaceTouchServicingKernelSKLMSHW0079.bin
+File: intel/ipts/SurfaceTouchServicingSFTConfigMSHW0079.bin
+
+Link: intel/ipts/intel_desc.bin -> intel/ipts/iaPreciseTouchDescriptor.bin
+Link: intel/ipts/vendor_desc.bin -> intel/ipts/SurfaceTouchServicingDescriptorMSHW0079.bin
+Link: intel/ipts/vendor_kernel.bin -> intel/ipts/SurfaceTouchServicingKernelSKLMSHW0079.bin
+Link: intel/ipts/config.bin -> intel/ipts/SurfaceTouchServicingSFTConfigMSHW0079.bin
+
+Licence: Redistributable. Unknown
+
+Needed for IPTS; no licensing information.
+
+--------------------------------------------------------------------------
+
 Driver: ambassador -- Madge Ambassador (Collage PCI 155 Server) ATM NIC.
 
 File: atmsar11.fw
@@ -565,7 +592,7 @@ Found in hex form in kernel source.
 
 --------------------------------------------------------------------------
 
-Driver: cxgb4 - Chelsio Terminator 4/5/6 1/10/25/40/100G Ethernet adapter
+Driver: cxgb4 - Chelsio Terminator 4/5 1G/10/40G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
@@ -2136,10 +2163,8 @@ File: brcm/brcmfmac4350c2-pcie.bin
 File: brcm/brcmfmac4350-pcie.bin
 File: brcm/brcmfmac4354-sdio.bin
 File: brcm/brcmfmac4356-pcie.bin
-File: brcm/brcmfmac4356-sdio.bin
 File: brcm/brcmfmac43569.bin
 File: brcm/brcmfmac43570-pcie.bin
-File: brcm/brcmfmac4358-pcie.bin
 File: brcm/brcmfmac43602-pcie.bin
 File: brcm/brcmfmac43602-pcie.ap.bin
 File: brcm/brcmfmac4366b-pcie.bin
@@ -2196,11 +2221,11 @@ Version: 6.5.2.0.15 (Multi-role)
 File: ti-connectivity/wl127x-fw-4-plt.bin
 Version: 6.3.5.0.98 (PLT-only)
 File: ti-connectivity/wl127x-fw-5-sr.bin
-Version: 6.3.10.0.141 (Single-role)
+Version: 6.3.10.0.133 (Single-role)
 File: ti-connectivity/wl127x-fw-5-mr.bin
-Version: 6.5.7.0.49 (Multi-role)
+Version: 6.5.7.0.42 (Multi-role)
 File: ti-connectivity/wl127x-fw-5-plt.bin
-Version: 6.3.10.0.141 (PLT-only)
+Version: 6.3.10.0.133 (PLT-only)
 
 File: ti-connectivity/wl128x-fw.bin
 Version: 7.1.5.50.74 (STA-only)
@@ -2217,11 +2242,11 @@ Version: 7.5.2.0.15 (Multi-role)
 File: ti-connectivity/wl128x-fw-4-plt.bin
 Version: 7.3.5.0.98 (PLT)
 File: ti-connectivity/wl128x-fw-5-sr.bin
-Version: 7.3.10.0.141 (Single-role)
+Version: 7.3.10.0.133 (Single-role)
 File: ti-connectivity/wl128x-fw-5-mr.bin
-Version: 7.5.7.0.49 (Multi-role)
+Version: 7.5.7.0.42 (Multi-role)
 File: ti-connectivity/wl128x-fw-5-plt.bin
-Version: 7.3.10.2.141 (PLT-only)
+Version: 7.3.10.2.133 (PLT-only)
 
 File: ti-connectivity/wl127x-nvs.bin
 File: ti-connectivity/wl128x-nvs.bin
@@ -3116,9 +3141,7 @@ File: intel/dsp_fw_release_v951.bin
 Version: 8.20.00.951
 File: intel/dsp_fw_release_v958.bin
 Version: 8.20.00.958
-File: intel/dsp_fw_release_v969.bin
-Version: 8.20.00.969
-Link: intel/dsp_fw_release.bin -> intel/dsp_fw_release_v969.bin
+Link: intel/dsp_fw_release.bin -> dsp_fw_release_v958.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3128,9 +3151,7 @@ File: intel/dsp_fw_bxtn_v702.bin
 Version: 9.00.00.702
 File: intel/dsp_fw_bxtn_v1118.bin
 Version: 9.22.00.1118
-File: intel/dsp_fw_bxtn_v2010.bin
-Version: 9.22.01.2010_44
-Link: intel/dsp_fw_bxtn.bin -> intel/dsp_fw_bxtn_v2010.bin
+Link: intel/dsp_fw_bxtn.bin -> dsp_fw_bxtn_v1118.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3460,13 +3481,10 @@ License: Redistributable. See LICENSE.atmel for details
 Driver: hfi1 - Intel OPA Gen 1 adapter
 
 File: hfi1_dc8051.fw
-Version: 0.47
+Version: 0.35
 File: hfi1_fabric.fw
-Version: 0x1055
 File: hfi1_pcie.fw
-Version: 0x4755
 File: hfi1_sbus.fw
-Version: 0x10130001
 File: hfi1_platform.dat
 
 Licence: Redistributable. See LICENSE.hfi1_firmware for details
