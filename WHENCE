@@ -8,33 +8,6 @@ kernel.
 
 --------------------------------------------------------------------------
 
-Driver: ipts -- IPTS device
-
-File: intel/ipts/iaPreciseTouchDescriptor.bin
-File: intel/ipts/SurfaceTouchServicingDescriptorMSHW0076.bin
-File: intel/ipts/SurfaceTouchServicingTouchBlobMSHW0076.bin
-File: intel/ipts/SurfaceTouchServicingKernelSKLMSHW0076.bin
-File: intel/ipts/SurfaceTouchServicingSFTConfigMSHW0076.bin
-File: intel/ipts/SurfaceTouchServicingDescriptorMSHW0078.bin
-File: intel/ipts/SurfaceTouchServicingTouchBlobMSHW0078.bin
-File: intel/ipts/SurfaceTouchServicingKernelSKLMSHW0078.bin
-File: intel/ipts/SurfaceTouchServicingSFTConfigMSHW0078.bin
-File: intel/ipts/SurfaceTouchServicingDescriptorMSHW0079.bin
-File: intel/ipts/SurfaceTouchServicingTouchBlobMSHW0079.bin
-File: intel/ipts/SurfaceTouchServicingKernelSKLMSHW0079.bin
-File: intel/ipts/SurfaceTouchServicingSFTConfigMSHW0079.bin
-
-Link: intel/ipts/intel_desc.bin -> intel/ipts/iaPreciseTouchDescriptor.bin
-Link: intel/ipts/vendor_desc.bin -> intel/ipts/SurfaceTouchServicingDescriptorMSHW0079.bin
-Link: intel/ipts/vendor_kernel.bin -> intel/ipts/SurfaceTouchServicingKernelSKLMSHW0079.bin
-Link: intel/ipts/config.bin -> intel/ipts/SurfaceTouchServicingSFTConfigMSHW0079.bin
-
-Licence: Redistributable. Unknown
-
-Needed for IPTS; no licensing information.
-
---------------------------------------------------------------------------
-
 Driver: ambassador -- Madge Ambassador (Collage PCI 155 Server) ATM NIC.
 
 File: atmsar11.fw
@@ -449,9 +422,9 @@ Version: 3.03.28 IPX
 File: ql2322_fw.bin
 Version: 3.03.28 IPX
 File: ql2400_fw.bin
-Version: 8.06.00 MID
+Version: 8.03.00 MID
 File: ql2500_fw.bin
-Version: 8.06.00 MIDQ
+Version: 8.03.00 MIDQ
 
 Licence: Redistributable. See LICENCE.qla2xxx for details
 
@@ -596,14 +569,10 @@ Driver: cxgb4 - Chelsio Terminator 4/5 1G/10/40G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.16.33.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.16.33.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.15.37.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.16.33.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.16.33.0.bin
-File: cxgb4/t6fw-1.16.33.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.16.33.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.15.37.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 
@@ -882,7 +851,7 @@ File: iwlwifi-7260-16.ucode
 Version 16.242414.0
 
 File: iwlwifi-7260-17.ucode
-Version 17.459231.0
+Version 17.352738.0
 
 File: iwlwifi-3160-7.ucode
 Version: 22.1.7.0
@@ -906,7 +875,7 @@ File: iwlwifi-3160-16.ucode
 Version 16.242414.0
 
 File: iwlwifi-3160-17.ucode
-Version 17.459231.0
+Version 17.352738.0
 
 File: iwlwifi-7265-8.ucode
 Version: 22.24.8.0
@@ -927,7 +896,7 @@ File: iwlwifi-7265-16.ucode
 Version 16.242414.0
 
 File: iwlwifi-7265-17.ucode
-Version 17.459231.0
+Version 17.352738.0
 
 File: iwlwifi-7265D-10.ucode
 Version: 23.15.10.0
@@ -948,19 +917,13 @@ File: iwlwifi-7265D-21.ucode
 Version 21.302800.0
 
 File: iwlwifi-7265D-22.ucode
-Version 22.391740.0
-
-File: iwlwifi-7265D-27.ucode
-Version 27.455470.0
+Version 22.361476.0
 
 File: iwlwifi-3168-21.ucode
 Version 21.302800.0
 
 File: iwlwifi-3168-22.ucode
 Version 22.361476.0
-
-File: iwlwifi-3168-27.ucode
-Version 27.455470.0
 
 File: iwlwifi-8000C-13.ucode
 Version: 25.30.13.0
@@ -972,19 +935,13 @@ File: iwlwifi-8000C-21.ucode
 Version 21.302800.0
 
 File: iwlwifi-8000C-22.ucode
-Version 22.391740.0
-
-File: iwlwifi-8000C-27.ucode
-Version 27.455470.0
+Version 22.361476.0
 
 File: iwlwifi-8265-21.ucode
 Version 21.302800.0
 
 File: iwlwifi-8265-22.ucode
-Version 22.391740.0
-
-File: iwlwifi-8265-27.ucode
-Version 27.455470.0
+Version 22.361476.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -1880,7 +1837,6 @@ Licence: Redistributable. See LICENSE.radeon for details.
 Driver: amdgpu - AMD Radeon
 
 File: amdgpu/topaz_ce.bin
-File: amdgpu/topaz_k_smc.bin
 File: amdgpu/topaz_mc.bin
 File: amdgpu/topaz_me.bin
 File: amdgpu/topaz_mec2.bin
@@ -1891,7 +1847,6 @@ File: amdgpu/topaz_sdma1.bin
 File: amdgpu/topaz_sdma.bin
 File: amdgpu/topaz_smc.bin
 File: amdgpu/tonga_ce.bin
-File: amdgpu/tonga_k_smc.bin
 File: amdgpu/tonga_mc.bin
 File: amdgpu/tonga_me.bin
 File: amdgpu/tonga_mec2.bin
@@ -1943,7 +1898,6 @@ File: amdgpu/polaris10_rlc.bin
 File: amdgpu/polaris10_sdma1.bin
 File: amdgpu/polaris10_sdma.bin
 File: amdgpu/polaris10_smc.bin
-File: amdgpu/polaris10_k_smc.bin
 File: amdgpu/polaris10_smc_sk.bin
 File: amdgpu/polaris10_uvd.bin
 File: amdgpu/polaris10_vce.bin
@@ -1957,22 +1911,9 @@ File: amdgpu/polaris11_rlc.bin
 File: amdgpu/polaris11_sdma1.bin
 File: amdgpu/polaris11_sdma.bin
 File: amdgpu/polaris11_smc.bin
-File: amdgpu/polaris11_k_smc.bin
 File: amdgpu/polaris11_smc_sk.bin
 File: amdgpu/polaris11_uvd.bin
 File: amdgpu/polaris11_vce.bin
-File: amdgpu/polaris12_ce.bin
-File: amdgpu/polaris12_mc.bin
-File: amdgpu/polaris12_me.bin
-File: amdgpu/polaris12_mec.bin
-File: amdgpu/polaris12_mec2.bin
-File: amdgpu/polaris12_pfp.bin
-File: amdgpu/polaris12_rlc.bin
-File: amdgpu/polaris12_sdma.bin
-File: amdgpu/polaris12_sdma1.bin
-File: amdgpu/polaris12_smc.bin
-File: amdgpu/polaris12_uvd.bin
-File: amdgpu/polaris12_vce.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -2059,7 +2000,6 @@ File: qed/qed_init_values_zipped-8.4.2.0.bin
 File: qed/qed_init_values_zipped-8.7.3.0.bin
 File: qed/qed_init_values_zipped-8.10.5.0.bin
 File: qed/qed_init_values_zipped-8.10.10.0.bin
-File: qed/qed_init_values_zipped-8.15.3.0.bin
 
 Licence:
   This file contains firmware data derived from proprietary unpublished
@@ -2389,8 +2329,6 @@ Driver: rtl8723be - Realtek 802.11n WLAN driver for RTL8723BE
 
 Info: From Vendor's realtek/rtlwifi_linux_mac80211_0019.0320.2014V628 driver
 File: rtlwifi/rtl8723befw.bin
-Info: Update to version 36 - Sent by Realtek
-File: rtlwifi/rtl8723befw_36.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -2432,8 +2370,6 @@ Driver: rtl8821ae - Realtek 802.11n WLAN driver for RTL8821AE
 Info: From Vendor's realtek/rtlwifi_linux_mac80211_0019.0320.2014V628 driver
 File: rtlwifi/rtl8821aefw.bin
 File: rtlwifi/rtl8821aefw_wowlan.bin
-Info: Update to version 29 - Sent by Realtek
-File: rtlwifi/rtl8821aefw_29.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -2446,19 +2382,6 @@ Info: Initial version taken from Realtek version
       Updated Jan. 14, 2015 with file added by Realtek to
       http://github.com/lwfinger/rtlwifi_new.git.
 File: rtlwifi/rtl8192eefw.bin
-
-Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
-
---------------------------------------------------------------------------
-
-Driver: rtl8723bs - Realtek 802.11n WLAN driver for RTL8723BS
-
-Info: Firmware files extracted from data statements in Realtek driver
-      v4.3.5.5_12290.20140916_BTCOEX20140507-4E40.
-File: rtlwifi/rtl8723bs_bt.bin
-File: rtlwifi/rtl8723bs_nic.bin
-File: rtlwifi/rtl8723bs_ap_wowlan.bin
-File: rtlwifi/rtl8723bs_wowlan.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -2842,25 +2765,25 @@ Version: BT_WilkinsPeak_B3_REL_86_0001
 File: intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq
 Version: BT_WilkinsPeak_B3_REL_86_0001
 File: intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq
-Version: BT_WilkinsPeak_B5_REL_39_0001
+Version: BT_WilkinsPeak_B5_REL_38_0001
 File: intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq
-Version: BT_WilkinsPeak_B5_REL_39_0001
+Version: BT_WilkinsPeak_B5_REL_38_0001
 File: intel/ibt-hw-37.8.bseq
 Version: 1339_02.00
 File: intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq
-Version: BT_StonePeak_C0_REL_59_0001
+Version: BT_StonePeak_C0_REL_58_0001
 File: intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq
 Version: BT_StonePeak_D0_REL_37_0002
 File: intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
-Version: BT_StonePeak_D1_REL_28_0001
+Version: BT_StonePeak_D1_REL_20_0001
 File: intel/ibt-11-5.ddc
-Version: LnP/SfP_REL0370
+Version: LnP/SfP_REL0257
 File: intel/ibt-11-5.sfi
-Version: BT_LightningPeak_REL0370
+Version: BT_LightningPeak_REL0330
 File: intel/ibt-12-16.ddc
-Version: BT_WindStormPeak_REL0101
+Version: BT_WindStormPeak_REL0060
 File: intel/ibt-12-16.sfi
-Version: BT_WindStormPeak_REL0101
+Version: BT_WindStormPeak_REL0060
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -3110,7 +3033,6 @@ License: Redistributable. See LICENCE.IntcSST2 for details
 Driver: snd_intel_sst_core
 
 File: intel/fw_sst_0f28.bin
-File: intel/fw_sst_0f28_ssp0.bin
 
 License: Redistributable. See LICENCE.fw_sst_0f28 for details
 
@@ -3163,12 +3085,6 @@ Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v1037.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
-File: intel/dsp_fw_glk_v1814.bin
-Version: 9.92.01.1814
-Link: intel/dsp_fw_glk.bin -> dsp_fw_glk_v1814.bin
-
-License: Redistributable. See LICENCE.adsp_sst for details
-
 --------------------------------------------------------------------------
 
 Driver: smsmdtv - Siano MDTV Core module
@@ -3207,10 +3123,6 @@ Driver: atusb - ATUSB IEEE 802.15.4 transceiver driver
 
 File: atusb/atusb-0.2.dfu
 Version: 0.2
-File: atusb/atusb-0.3.dfu
-Version: 0.3
-File: atusb/rzusb-0.3.bin
-Version: 0.3
 Info: atusb/ChangeLog
 
 Licence: GPLv2 or later. See GPL-2 and GPL-3 for details.
@@ -3238,17 +3150,14 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 
 Driver: liquidio -- Cavium LiquidIO driver
 
-File: liquidio/lio_23xx_nic.bin
-Version: v1.4.2
-
 File: liquidio/lio_210nv_nic.bin
-Version: v1.4.2
+Version: v1.1.9
 
 File: liquidio/lio_210sv_nic.bin
-Version: v1.4.2
+Version: v1.1.9
 
 File: liquidio/lio_410nv_nic.bin
-Version: v1.4.2
+Version: v1.1.9
 
 Licence: Redistributable. See LICENCE.cavium for details
 
@@ -3278,21 +3187,6 @@ Version: Guc API/ABI ver 4 - release 3 for Skylake
 File: i915/skl_guc_ver6_1.bin
 File: i915/skl_guc_ver6.bin
 Version: Guc API/ABI ver 6 - release 1 for Skylake
-
-File: i915/skl_huc_ver01_07_1398.bin
-Version: HuC API/ABI ver 1 - release 7 for Skylake
-
-File: i915/bxt_huc_ver01_07_1398.bin
-Version: HuC API/APB ver 1 - release 7 for Broxton
-
-File: i915/kbl_huc_ver02_00_1810.bin
-Version: HuC API/APB ver 2 - for Kabylake
-
-File: i915/bxt_guc_ver8_7.bin
-Version: Guc API/APB ver 8 - release 7 for Broxton
-
-File: i915/kbl_guc_ver9_14.bin
-Version: Guc API/APB ver 9 release 14 for Kabylake
 
 License: Redistributable. See LICENSE.i915 for details
 
@@ -3365,9 +3259,6 @@ File: nvidia/gm20b/gr/sw_bundle_init.bin
 File: nvidia/gm20b/gr/sw_ctx.bin
 File: nvidia/gm20b/gr/sw_method_init.bin
 File: nvidia/gm20b/gr/sw_nonctx.bin
-File: nvidia/gm20b/pmu/desc.bin
-File: nvidia/gm20b/pmu/image.bin
-File: nvidia/gm20b/pmu/sig.bin
 File: nvidia/gp100/acr/bl.bin
 File: nvidia/gp100/acr/ucode_load.bin
 File: nvidia/gp100/acr/ucode_unload.bin
@@ -3383,86 +3274,6 @@ File: nvidia/gp100/gr/sw_bundle_init.bin
 File: nvidia/gp100/gr/sw_ctx.bin
 File: nvidia/gp100/gr/sw_method_init.bin
 File: nvidia/gp100/gr/sw_nonctx.bin
-File: nvidia/gp102/acr/bl.bin
-File: nvidia/gp102/acr/ucode_load.bin
-File: nvidia/gp102/acr/ucode_unload.bin
-File: nvidia/gp102/acr/unload_bl.bin
-File: nvidia/gp102/gr/fecs_bl.bin
-File: nvidia/gp102/gr/fecs_data.bin
-File: nvidia/gp102/gr/fecs_inst.bin
-File: nvidia/gp102/gr/fecs_sig.bin
-File: nvidia/gp102/gr/gpccs_bl.bin
-File: nvidia/gp102/gr/gpccs_data.bin
-File: nvidia/gp102/gr/gpccs_inst.bin
-File: nvidia/gp102/gr/gpccs_sig.bin
-File: nvidia/gp102/gr/sw_bundle_init.bin
-File: nvidia/gp102/gr/sw_ctx.bin
-File: nvidia/gp102/gr/sw_method_init.bin
-File: nvidia/gp102/gr/sw_nonctx.bin
-File: nvidia/gp102/nvdec/scrubber.bin
-File: nvidia/gp102/sec2/desc.bin
-File: nvidia/gp102/sec2/image.bin
-File: nvidia/gp102/sec2/sig.bin
-File: nvidia/gp104/acr/bl.bin
-File: nvidia/gp104/acr/ucode_load.bin
-File: nvidia/gp104/acr/ucode_unload.bin
-File: nvidia/gp104/acr/unload_bl.bin
-File: nvidia/gp104/gr/fecs_bl.bin
-File: nvidia/gp104/gr/fecs_data.bin
-File: nvidia/gp104/gr/fecs_inst.bin
-File: nvidia/gp104/gr/fecs_sig.bin
-File: nvidia/gp104/gr/gpccs_bl.bin
-File: nvidia/gp104/gr/gpccs_data.bin
-File: nvidia/gp104/gr/gpccs_inst.bin
-File: nvidia/gp104/gr/gpccs_sig.bin
-File: nvidia/gp104/gr/sw_bundle_init.bin
-File: nvidia/gp104/gr/sw_ctx.bin
-File: nvidia/gp104/gr/sw_method_init.bin
-File: nvidia/gp104/gr/sw_nonctx.bin
-File: nvidia/gp104/nvdec/scrubber.bin
-File: nvidia/gp104/sec2/desc.bin
-File: nvidia/gp104/sec2/image.bin
-File: nvidia/gp104/sec2/sig.bin
-File: nvidia/gp106/acr/bl.bin
-File: nvidia/gp106/acr/ucode_load.bin
-File: nvidia/gp106/acr/ucode_unload.bin
-File: nvidia/gp106/acr/unload_bl.bin
-File: nvidia/gp106/gr/fecs_bl.bin
-File: nvidia/gp106/gr/fecs_data.bin
-File: nvidia/gp106/gr/fecs_inst.bin
-File: nvidia/gp106/gr/fecs_sig.bin
-File: nvidia/gp106/gr/gpccs_bl.bin
-File: nvidia/gp106/gr/gpccs_data.bin
-File: nvidia/gp106/gr/gpccs_inst.bin
-File: nvidia/gp106/gr/gpccs_sig.bin
-File: nvidia/gp106/gr/sw_bundle_init.bin
-File: nvidia/gp106/gr/sw_ctx.bin
-File: nvidia/gp106/gr/sw_method_init.bin
-File: nvidia/gp106/gr/sw_nonctx.bin
-File: nvidia/gp106/nvdec/scrubber.bin
-File: nvidia/gp106/sec2/desc.bin
-File: nvidia/gp106/sec2/image.bin
-File: nvidia/gp106/sec2/sig.bin
-File: nvidia/gp107/acr/bl.bin
-File: nvidia/gp107/acr/ucode_load.bin
-File: nvidia/gp107/acr/ucode_unload.bin
-File: nvidia/gp107/acr/unload_bl.bin
-File: nvidia/gp107/gr/fecs_bl.bin
-File: nvidia/gp107/gr/fecs_data.bin
-File: nvidia/gp107/gr/fecs_inst.bin
-File: nvidia/gp107/gr/fecs_sig.bin
-File: nvidia/gp107/gr/gpccs_bl.bin
-File: nvidia/gp107/gr/gpccs_data.bin
-File: nvidia/gp107/gr/gpccs_inst.bin
-File: nvidia/gp107/gr/gpccs_sig.bin
-File: nvidia/gp107/gr/sw_bundle_init.bin
-File: nvidia/gp107/gr/sw_ctx.bin
-File: nvidia/gp107/gr/sw_method_init.bin
-File: nvidia/gp107/gr/sw_nonctx.bin
-File: nvidia/gp107/nvdec/scrubber.bin
-File: nvidia/gp107/sec2/desc.bin
-File: nvidia/gp107/sec2/image.bin
-File: nvidia/gp107/sec2/sig.bin
 
 Licence: Redistributable. See LICENCE.nvidia for details
 
@@ -3533,18 +3344,6 @@ OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 Driver: rk3399-dptx - ROCKCHIP rk3399 dptx firmware
 
 File: rockchip/dptx.bin
-Version: 3.1
+Version: 2.9
 
 Licence: Redistributable. See LICENCE.rockchip for details.
-
----------------------------------------------------------------------------
-
-Driver: mt76x2e - MediaTek MT76x2 Wireless MACs
-
-File: mt7662.bin
-Version: 1.9
-
-File: mt7662_rom_patch.bin
-Version: 0.0.2_P69
-
-Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
