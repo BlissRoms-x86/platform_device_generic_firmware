@@ -8,6 +8,33 @@ kernel.
 
 --------------------------------------------------------------------------
 
+Driver: ipts -- IPTS device
+
+File: intel/ipts/iaPreciseTouchDescriptor.bin
+File: intel/ipts/SurfaceTouchServicingDescriptorMSHW0076.bin
+File: intel/ipts/SurfaceTouchServicingTouchBlobMSHW0076.bin
+File: intel/ipts/SurfaceTouchServicingKernelSKLMSHW0076.bin
+File: intel/ipts/SurfaceTouchServicingSFTConfigMSHW0076.bin
+File: intel/ipts/SurfaceTouchServicingDescriptorMSHW0078.bin
+File: intel/ipts/SurfaceTouchServicingTouchBlobMSHW0078.bin
+File: intel/ipts/SurfaceTouchServicingKernelSKLMSHW0078.bin
+File: intel/ipts/SurfaceTouchServicingSFTConfigMSHW0078.bin
+File: intel/ipts/SurfaceTouchServicingDescriptorMSHW0079.bin
+File: intel/ipts/SurfaceTouchServicingTouchBlobMSHW0079.bin
+File: intel/ipts/SurfaceTouchServicingKernelSKLMSHW0079.bin
+File: intel/ipts/SurfaceTouchServicingSFTConfigMSHW0079.bin
+
+Link: intel/ipts/intel_desc.bin -> intel/ipts/iaPreciseTouchDescriptor.bin
+Link: intel/ipts/vendor_desc.bin -> intel/ipts/SurfaceTouchServicingDescriptorMSHW0079.bin
+Link: intel/ipts/vendor_kernel.bin -> intel/ipts/SurfaceTouchServicingKernelSKLMSHW0079.bin
+Link: intel/ipts/config.bin -> intel/ipts/SurfaceTouchServicingSFTConfigMSHW0079.bin
+
+Licence: Redistributable. Unknown
+
+Needed for IPTS; no licensing information.
+
+--------------------------------------------------------------------------
+
 Driver: ambassador -- Madge Ambassador (Collage PCI 155 Server) ATM NIC.
 
 File: atmsar11.fw
