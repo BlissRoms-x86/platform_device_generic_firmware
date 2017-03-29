@@ -738,7 +738,7 @@ File: mrvl/usb8797_uapsta.bin
 Version: 14.68.29.p49
 
 File: mrvl/sd8897_uapsta.bin
-Version: 15.68.7.p77
+Version: 15.68.7.p87
 
 File: mrvl/usb8897_uapsta.bin
 Version: 15.68.4.p103
@@ -759,7 +759,10 @@ File: mrvl/pcieuart8997_combo_v4.bin
 Version: 16.68.1.p70
 
 File: mrvl/pcieusb8997_combo_v4.bin
-Version: 16.68.1.p70
+Version: 16.68.1.p97
+
+File: mrvl/pcie8997_wlan_v4.bin
+Version: 16.68.1.p97
 
 Licence: Redistributable. See LICENCE.Marvell for details.  Originates from
 http://git.marvell.com/?p=mwifiex-firmware.git
@@ -3073,7 +3076,11 @@ File: intel/dsp_fw_bxtn_v702.bin
 Version: 9.00.00.702
 File: intel/dsp_fw_bxtn_v1118.bin
 Version: 9.22.00.1118
-Link: intel/dsp_fw_bxtn.bin -> dsp_fw_bxtn_v1118.bin
+File: intel/dsp_fw_bxtn_v2010.bin
+Version: 9.22.01.2010_44
+File: intel/dsp_fw_bxtn_v2219.bin
+Version: 9.22.01.2219_64
+Link: intel/dsp_fw_bxtn.bin -> intel/dsp_fw_bxtn_v2219.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3347,3 +3354,32 @@ File: rockchip/dptx.bin
 Version: 2.9
 
 Licence: Redistributable. See LICENCE.rockchip for details.
+
+---------------------------------------------------------------------------
+
+Driver: mt76x2e - MediaTek MT76x2 Wireless MACs
+
+File: mt7662.bin
+Version: 1.9
+
+File: mt7662_rom_patch.bin
+Version: 0.0.2_P69
+
+Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver: nfp - Netronome Flow Processor
+
+File: netronome/nic_AMDA0081-0001_1x40.nffw
+File: netronome/nic_AMDA0097-0001_2x40.nffw
+File: netronome/nic_AMDA0099-0001_2x10.nffw
+File: netronome/nic_AMDA0081-0001_4x10.nffw
+File: netronome/nic_AMDA0097-0001_4x10_1x40.nffw
+File: netronome/nic_AMDA0099-0001_2x25.nffw
+File: netronome/nic_AMDA0096-0001_2x10.nffw
+File: netronome/nic_AMDA0097-0001_8x10.nffw
+
+Version: v0.6.1
+
+Licence: Redistributable. See LICENCE.Netronome for details
