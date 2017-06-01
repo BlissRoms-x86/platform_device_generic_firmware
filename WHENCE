@@ -596,14 +596,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5 1G/10/40G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.16.43.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.16.43.0.bin
+File: cxgb4/t4fw-1.16.45.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.16.45.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.16.43.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.16.43.0.bin
-File: cxgb4/t6fw-1.16.43.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.16.43.0.bin
+File: cxgb4/t5fw-1.16.45.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.16.45.0.bin
+File: cxgb4/t6fw-1.16.45.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.16.45.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 
@@ -3446,11 +3446,11 @@ License: Redistributable. See LICENSE.atmel for details
 Driver: hfi1 - Intel OPA Gen 1 adapter
 
 File: hfi1_dc8051.fw
-Version: 0.35
+Version: 1.18
 File: hfi1_fabric.fw
 File: hfi1_pcie.fw
 File: hfi1_sbus.fw
-File: hfi1_platform.dat
+Version: 0x10130001
 
 Licence: Redistributable. See LICENSE.hfi1_firmware for details
 
@@ -3530,3 +3530,13 @@ File: netronome/nic_AMDA0097-0001_8x10.nffw
 Version: v0.6.1
 
 Licence: Redistributable. See LICENCE.Netronome for details
+
+--------------------------------------------------------------------------
+
+Driver: wil6210 - Qualcomm Atheros support for 11ad family of chips
+
+File: wil6210.fw
+File: wil6210.brd
+Version: 4.1.0.55
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
