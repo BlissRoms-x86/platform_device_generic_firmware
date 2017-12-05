@@ -2050,6 +2050,16 @@ File: amdgpu/vega10_smc.bin
 File: amdgpu/vega10_sos.bin
 File: amdgpu/vega10_uvd.bin
 File: amdgpu/vega10_vce.bin
+File: amdgpu/raven_asd.bin
+File: amdgpu/raven_ce.bin
+File: amdgpu/raven_gpu_info.bin
+File: amdgpu/raven_me.bin
+File: amdgpu/raven_mec.bin
+File: amdgpu/raven_mec2.bin
+File: amdgpu/raven_pfp.bin
+File: amdgpu/raven_rlc.bin
+File: amdgpu/raven_sdma.bin
+File: amdgpu/raven_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -3351,8 +3361,9 @@ Driver: i915 -- Intel Integrated Graphics driver
 
 File: i915/skl_dmc_ver1_23.bin
 File: i915/skl_dmc_ver1_26.bin
+File: i915/skl_dmc_ver1_27.bin
 File: i915/skl_dmc_ver1.bin
-Version: DMC API/ABI ver 1 - release 26 for Skylake
+Version: DMC API/ABI ver 1 - release 27 for Skylake
 
 File: i915/bxt_dmc_ver1_07.bin
 File: i915/bxt_dmc_ver1.bin
