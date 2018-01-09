@@ -2317,11 +2317,11 @@ Version: 6.5.2.0.15 (Multi-role)
 File: ti-connectivity/wl127x-fw-4-plt.bin
 Version: 6.3.5.0.98 (PLT-only)
 File: ti-connectivity/wl127x-fw-5-sr.bin
-Version: 6.3.10.0.133 (Single-role)
+Version: 6.3.10.0.142 (Single-role)
 File: ti-connectivity/wl127x-fw-5-mr.bin
-Version: 6.5.7.0.42 (Multi-role)
+Version: 6.5.7.0.50 (Multi-role)
 File: ti-connectivity/wl127x-fw-5-plt.bin
-Version: 6.3.10.0.133 (PLT-only)
+Version: 6.3.10.0.142 (PLT-only)
 
 File: ti-connectivity/wl128x-fw.bin
 Version: 7.1.5.50.74 (STA-only)
@@ -2338,11 +2338,11 @@ Version: 7.5.2.0.15 (Multi-role)
 File: ti-connectivity/wl128x-fw-4-plt.bin
 Version: 7.3.5.0.98 (PLT)
 File: ti-connectivity/wl128x-fw-5-sr.bin
-Version: 7.3.10.0.133 (Single-role)
+Version: 7.3.10.0.142 (Single-role)
 File: ti-connectivity/wl128x-fw-5-mr.bin
-Version: 7.5.7.0.42 (Multi-role)
+Version: 7.5.7.0.50 (Multi-role)
 File: ti-connectivity/wl128x-fw-5-plt.bin
-Version: 7.3.10.2.133 (PLT-only)
+Version: 7.3.10.2.142 (PLT-only)
 
 File: ti-connectivity/wl127x-nvs.bin
 File: ti-connectivity/wl128x-nvs.bin
@@ -2381,7 +2381,7 @@ Version: 8.5.0.0.55
 File: ti-connectivity/wl18xx-fw-3.bin
 Version: 8.8.0.0.13
 File: ti-connectivity/wl18xx-fw-4.bin
-Version: 8.9.0.0.69
+Version: 8.9.0.0.76
 
 Licence: Redistributable. See LICENCE.ti-connectivity for details.
 
@@ -2487,6 +2487,15 @@ Info: From Vendor's realtek/rtlwifi_linux_mac80211_0019.0320.2014V628 driver
 File: rtlwifi/rtl8723befw.bin
 Info: Update to version 36 - Sent by Realtek
 File: rtlwifi/rtl8723befw_36.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
+Driver: rtl8723de - Realtek 802.11ac WLAN driver for RTL8723DE
+
+Info: Supplied by Vendor at https://github.com/pkshih/rtlwifi_rtl8723de
+File: rtlwifi/rtl8723defw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3466,6 +3475,8 @@ Version: DMC API/ABI ver 1 - release 04 for Geminilake
 File: i915/cnl_dmc_ver1_06.bin
 Version: DMC API/ABI ver 1 - release 06 for Cannonlake
 
+File: i915/cnl_dmc_ver1_07.bin
+Version: DMC API/ABI ver 1 - release 07 for Cannonlake
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
