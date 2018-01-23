@@ -596,14 +596,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5 1G/10/40G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.16.63.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.16.63.0.bin
+File: cxgb4/t4fw-1.17.14.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.17.14.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.16.63.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.16.63.0.bin
-File: cxgb4/t6fw-1.16.63.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.16.63.0.bin
+File: cxgb4/t5fw-1.17.14.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.17.14.0.bin
+File: cxgb4/t6fw-1.17.14.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.17.14.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 
@@ -775,7 +775,7 @@ File: mrvl/usb8897_uapsta.bin
 Version: 15.68.4.p103
 
 File: mrvl/pcie8897_uapsta.bin
-Version: 15.68.7.p119
+Version: V15.68.7.p154
 
 File: mrvl/sd8887_uapsta.bin
 Version: 15.68.7.p112
@@ -790,7 +790,7 @@ File: mrvl/pcieuart8997_combo_v4.bin
 Version: 16.68.1.p70
 
 File: mrvl/pcieusb8997_combo_v4.bin
-Version: 16.68.1.p140
+Version: 16.68.1.p145
 
 File: mrvl/pcie8997_wlan_v4.bin
 Version: 16.68.1.p97
@@ -3295,7 +3295,9 @@ File: intel/dsp_fw_glk_v1814.bin
 Version: 9.92.01.1814
 File: intel/dsp_fw_glk_v2880.bin
 Version: 9.22.00.2880
-Link: intel/dsp_fw_glk.bin -> dsp_fw_glk_v2880.bin
+File: intel/dsp_fw_glk_v2768.bin
+Version: 9.22.01.2768
+Link: intel/dsp_fw_glk.bin -> dsp_fw_glk_v2768.bin
 
 File: intel/dsp_fw_cnl_v1191.bin
 Version: 10.00.00.1191
