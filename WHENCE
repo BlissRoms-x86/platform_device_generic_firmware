@@ -2146,15 +2146,17 @@ Driver: qed - QLogic 4xxxx Ethernet Driver Core Module.
 File: qed/qed_init_values_zipped-8.4.2.0.bin
 File: qed/qed_init_values_zipped-8.7.3.0.bin
 File: qed/qed_init_values_zipped-8.10.5.0.bin
+File: qed/qed_init_values-8.10.9.0.bin
 File: qed/qed_init_values_zipped-8.10.10.0.bin
 File: qed/qed_init_values_zipped-8.15.3.0.bin
 File: qed/qed_init_values_zipped-8.20.0.0.bin
+File: qed/qed_init_values-8.30.12.0.bin
 File: qed/qed_init_values_zipped-8.33.1.0.bin
 
 Licence:
   This file contains firmware data derived from proprietary unpublished
   source code.
-  Copyright (c) 2015-2017 QLogic Corporation.
+  Copyright (c) 2015-2018 QLogic Corporation.
 
   Permission is hereby granted for the distribution of this firmware data
   in hexadecimal or equivalent format, provided this copyright notice is
@@ -2962,41 +2964,41 @@ Version: LnP/SfP_REL0432
 File: intel/ibt-11-5.sfi
 Version: BT_LightningPeak_REL0432
 File: intel/ibt-12-16.ddc
-Version: BT_WindStormPeak_REL0173
+Version: BT_WindStormPeak_REL0185
 File: intel/ibt-12-16.sfi
-Version: BT_WindStormPeak_REL0173
+Version: BT_WindStormPeak_REL0185
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0186
+Version: BT_JeffersonPeak_B0_B0_REL0201
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0186
+Version: BT_JeffersonPeak_B0_B0_REL0201
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0186
+Version: BT_JeffersonPeak_B0_B0_REL0201
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0186
+Version: BT_JeffersonPeak_B0_B0_REL0201
 File: intel/ibt-17-0-1.sfi
-Version: BT_JeffersonPeak_A0_B0_REL0186
+Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
-Version: BT_JeffersonPeak_A0_B0_REL0186
+Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.sfi
-Version: BT_JeffersonPeak_A0_B0_REL0186
+Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
-Version: BT_JeffersonPeak_A0_B0_REL0186
+Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL0186
+Version: BT_ThunderPeak_B0_B0_REL0201
 File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL0186
+Version: BT_ThunderPeak_B0_B0_REL0201
 File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL0186
+Version: BT_ThunderPeak_B0_B0_REL0201
 File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL0186
+Version: BT_ThunderPeak_B0_B0_REL0201
 File: intel/ibt-18-0-1.sfi
-Version: BT_ThunderPeak_A0_B0_REL0186
+Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
-Version: BT_ThunderPeak_A0_B0_REL0186
+Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.sfi
-Version: BT_ThunderPeak_A0_B0_REL0186
+Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.ddc
-Version: BT_ThunderPeak_A0_B0_REL0186
+Version: BT_ThunderPeak_A0_B0_REL0201
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -3009,6 +3011,10 @@ File: rtl_bt/rtl8812ae_fw.bin
 File: rtl_bt/rtl8821a_fw.bin
 File: rtl_bt/rtl8822b_fw.bin
 File: rtl_bt/rtl8822b_config.bin
+File: rtl_bt/rtl8723d_fw.bin
+File: rtl_bt/rtl8723d_config.bin
+File: rtl_bt/rtl8821c_fw.bin
+File: rtl_bt/rtl8821c_config.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3016,6 +3022,7 @@ Found in vendor driver, linux_bt_usb_2.11.20140423_8723be.rar
 From https://github.com/troy-tan/driver_store
 Files rtl_bt/rtl8822b_* came directly from Realtek. These files are
 updated on April 14, 2017.
+Files rtl_bt/rtl8821c_* and rtl_bt/rtl8723d_* came directly from Realtek.
 
 --------------------------------------------------------------------------
 
@@ -3287,7 +3294,9 @@ File: intel/dsp_fw_kbl_v2042.bin
 Version: 9.21.00.2042_46
 File: intel/dsp_fw_kbl_v2630.bin
 Version: 9.21.00.2630_97
-Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v2630.bin
+File: intel/dsp_fw_kbl_v3266.bin
+Version: 9.21.00.3266_144
+Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v3266.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3779,6 +3788,7 @@ File: netronome/nic_AMDA0097-0001_2x40.nffw
 File: netronome/nic_AMDA0099-0001_2x10.nffw
 File: netronome/nic_AMDA0081-0001_4x10.nffw
 File: netronome/nic_AMDA0097-0001_4x10_1x40.nffw
+File: netronome/nic_AMDA0099-0001_1x10_1x25.nffw
 File: netronome/nic_AMDA0099-0001_2x25.nffw
 File: netronome/nic_AMDA0096-0001_2x10.nffw
 File: netronome/nic_AMDA0097-0001_8x10.nffw
@@ -3787,11 +3797,12 @@ File: netronome/nic/nic_AMDA0097-0001_2x40.nffw
 File: netronome/nic/nic_AMDA0099-0001_2x10.nffw
 File: netronome/nic/nic_AMDA0081-0001_4x10.nffw
 File: netronome/nic/nic_AMDA0097-0001_4x10_1x40.nffw
+File: netronome/nic/nic_AMDA0099-0001_1x10_1x25.nffw
 File: netronome/nic/nic_AMDA0099-0001_2x25.nffw
 File: netronome/nic/nic_AMDA0096-0001_2x10.nffw
 File: netronome/nic/nic_AMDA0097-0001_8x10.nffw
 
-Version: v2.0.0
+Version: v2.0.4
 
 File: netronome/flower/nic_AMDA0099.nffw
 File: netronome/flower/nic_AMDA0096.nffw
