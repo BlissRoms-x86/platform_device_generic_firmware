@@ -35,6 +35,14 @@ Needed for IPTS; no licensing information.
 
 --------------------------------------------------------------------------
 
+Driver: BCM-0bb4-0306 Cypress Bluetooth firmware for HTC Vive
+
+File: brcm/BCM-0bb4-0306.hcd
+
+Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
+
+--------------------------------------------------------------------------
+
 Driver: ambassador -- Madge Ambassador (Collage PCI 155 Server) ATM NIC.
 
 File: atmsar11.fw
@@ -1017,10 +1025,10 @@ File: iwlwifi-9000-pu-b0-jf-b0-33.ucode
 Version: 33.610294.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-34.ucode
-Version: 34.618819.0
+Version: 34.ba501b11.0
 
 File: iwlwifi-9260-th-b0-jf-b0-34.ucode
-Version: 34.618819.0
+Version: 34.ba501b11.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -2148,10 +2156,14 @@ File: qed/qed_init_values_zipped-8.7.3.0.bin
 File: qed/qed_init_values_zipped-8.10.5.0.bin
 File: qed/qed_init_values-8.10.9.0.bin
 File: qed/qed_init_values_zipped-8.10.10.0.bin
+File: qed/qed_init_values-8.14.6.0.bin
 File: qed/qed_init_values_zipped-8.15.3.0.bin
+File: qed/qed_init_values-8.18.9.0.bin
 File: qed/qed_init_values_zipped-8.20.0.0.bin
+File: qed/qed_init_values-8.20.0.0.bin
 File: qed/qed_init_values-8.30.12.0.bin
 File: qed/qed_init_values_zipped-8.33.1.0.bin
+File: qed/qed_init_values_zipped-8.33.11.0.bin
 
 Licence:
   This file contains firmware data derived from proprietary unpublished
@@ -2959,6 +2971,7 @@ File: intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq
 Version: BT_StonePeak_D0_REL_37_0002
 File: intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
 Version: BT_StonePeak_D1_REL_25_0001
+Version: BT_StonePeak_D1_REL_51_00001
 File: intel/ibt-11-5.ddc
 Version: LnP/SfP_REL0432
 File: intel/ibt-11-5.sfi
@@ -3895,6 +3908,7 @@ Driver: mlxsw_spectrum - Mellanox Spectrum switch
 
 File: mellanox/mlxsw_spectrum-13.1420.122.mfa2
 File: mellanox/mlxsw_spectrum-13.1530.152.mfa2
+File: mellanox/mlxsw_spectrum-13.1620.192.mfa2
 
 Licence:
  Copyright (c) 2017 Mellanox Technologies, Ltd. All rights reserved.
