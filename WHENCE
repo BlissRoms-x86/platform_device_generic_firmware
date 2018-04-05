@@ -604,14 +604,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5 1G/10/40G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.17.14.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.17.14.0.bin
+File: cxgb4/t4fw-1.18.9.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.18.9.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.17.14.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.17.14.0.bin
-File: cxgb4/t6fw-1.17.14.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.17.14.0.bin
+File: cxgb4/t5fw-1.18.9.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.18.9.0.bin
+File: cxgb4/t6fw-1.18.9.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.18.9.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 
@@ -2973,21 +2973,21 @@ File: intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
 Version: BT_StonePeak_D1_REL_25_0001
 Version: BT_StonePeak_D1_REL_51_00001
 File: intel/ibt-11-5.ddc
-Version: LnP/SfP_REL0432
+Version: LnP/SfP_REL0458
 File: intel/ibt-11-5.sfi
-Version: BT_LightningPeak_REL0432
+Version: BT_LightningPeak_REL0458
 File: intel/ibt-12-16.ddc
-Version: BT_WindStormPeak_REL0185
+Version: BT_WindStormPeak_REL0196
 File: intel/ibt-12-16.sfi
-Version: BT_WindStormPeak_REL0185
+Version: BT_WindStormPeak_REL0196
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0201
+Version: BT_JeffersonPeak_B0_B0_REL0219
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0201
+Version: BT_JeffersonPeak_B0_B0_REL0219
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0201
+Version: BT_JeffersonPeak_B0_B0_REL0219
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0201
+Version: BT_JeffersonPeak_B0_B0_REL0219
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -2997,13 +2997,13 @@ Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL0201
+Version: BT_ThunderPeak_B0_B0_REL0219
 File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL0201
+Version: BT_ThunderPeak_B0_B0_REL0219
 File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL0201
+Version: BT_ThunderPeak_B0_B0_REL0219
 File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL0201
+Version: BT_ThunderPeak_B0_B0_REL0219
 File: intel/ibt-18-0-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
@@ -3289,13 +3289,17 @@ Driver: snd-soc-skl
 
 File: intel/dsp_fw_release_v969.bin
 Version: 8.20.00.969
-Link: intel/dsp_fw_release.bin -> intel/dsp_fw_release_v969.bin
+File: intel/dsp_fw_release_v3402.bin
+Version: 9.21.00.3402_161
+Link: intel/dsp_fw_release.bin -> intel/dsp_fw_release_v3402.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
 File: intel/dsp_fw_bxtn_v2219.bin
 Version: 9.22.01.2219_64
-Link: intel/dsp_fw_bxtn.bin -> intel/dsp_fw_bxtn_v2219.bin
+File: intel/dsp_fw_bxtn_v3366.bin
+Version: 9.22.01.3366_157
+Link: intel/dsp_fw_bxtn.bin -> intel/dsp_fw_bxtn_v3366.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3311,7 +3315,9 @@ File: intel/dsp_fw_kbl_v3266.bin
 Version: 9.21.00.3266_144
 File: intel/dsp_fw_kbl_v3420.bin
 Version: 9.21.00.3420_163
-Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v3420.bin
+File: intel/dsp_fw_kbl_v3402.bin
+Version: 9.21.00.3402_161
+Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v3402.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3321,7 +3327,9 @@ File: intel/dsp_fw_glk_v2880.bin
 Version: 9.22.00.2880
 File: intel/dsp_fw_glk_v2768.bin
 Version: 9.22.01.2768
-Link: intel/dsp_fw_glk.bin -> dsp_fw_glk_v2768.bin
+File: intel/dsp_fw_glk_v3366.bin
+Version: 9.22.01.3366_157
+Link: intel/dsp_fw_glk.bin -> dsp_fw_glk_v3366.bin
 
 File: intel/dsp_fw_cnl_v1191.bin
 Version: 10.00.00.1191
@@ -3798,15 +3806,18 @@ Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for det
 
 Driver: nfp - Netronome Flow Processor
 
-File: netronome/nic_AMDA0081-0001_1x40.nffw
-File: netronome/nic_AMDA0097-0001_2x40.nffw
-File: netronome/nic_AMDA0099-0001_2x10.nffw
-File: netronome/nic_AMDA0081-0001_4x10.nffw
-File: netronome/nic_AMDA0097-0001_4x10_1x40.nffw
-File: netronome/nic_AMDA0099-0001_1x10_1x25.nffw
-File: netronome/nic_AMDA0099-0001_2x25.nffw
-File: netronome/nic_AMDA0096-0001_2x10.nffw
-File: netronome/nic_AMDA0097-0001_8x10.nffw
+Link: netronome/nic_AMDA0081-0001_1x40.nffw -> nic/nic_AMDA0081-0001_1x40.nffw
+Link: netronome/nic_AMDA0097-0001_2x40.nffw -> nic/nic_AMDA0097-0001_2x40.nffw
+Link: netronome/nic_AMDA0099-0001_2x10.nffw -> nic/nic_AMDA0099-0001_2x10.nffw
+Link: netronome/nic_AMDA0081-0001_4x10.nffw -> nic/nic_AMDA0081-0001_4x10.nffw
+Link: netronome/nic_AMDA0097-0001_4x10_1x40.nffw -> nic/nic_AMDA0097-0001_4x10_1x40.nffw
+Link: netronome/nic_AMDA0099-0001_1x10_1x25.nffw -> nic/nic_AMDA0099-0001_1x10_1x25.nffw
+Link: netronome/nic_AMDA0099-0001_2x25.nffw -> nic/nic_AMDA0099-0001_2x25.nffw
+Link: netronome/nic_AMDA0096-0001_2x10.nffw -> nic/nic_AMDA0096-0001_2x10.nffw
+Link: netronome/nic_AMDA0097-0001_8x10.nffw -> nic/nic_AMDA0097-0001_8x10.nffw
+Link: netronome/nic_AMDA0058-0011_2x40.nffw -> nic/nic_AMDA0058-0011_2x40.nffw
+Link: netronome/nic_AMDA0058-0012_2x40.nffw -> nic/nic_AMDA0058-0012_2x40.nffw
+Link: netronome/nic_AMDA0078-0011_1x100.nffw -> nic/nic_AMDA0078-0011_1x100.nffw
 File: netronome/nic/nic_AMDA0081-0001_1x40.nffw
 File: netronome/nic/nic_AMDA0097-0001_2x40.nffw
 File: netronome/nic/nic_AMDA0099-0001_2x10.nffw
@@ -3816,8 +3827,11 @@ File: netronome/nic/nic_AMDA0099-0001_1x10_1x25.nffw
 File: netronome/nic/nic_AMDA0099-0001_2x25.nffw
 File: netronome/nic/nic_AMDA0096-0001_2x10.nffw
 File: netronome/nic/nic_AMDA0097-0001_8x10.nffw
+File: netronome/nic/nic_AMDA0058-0011_2x40.nffw
+File: netronome/nic/nic_AMDA0058-0012_2x40.nffw
+File: netronome/nic/nic_AMDA0078-0011_1x100.nffw
 
-Version: v2.0.4
+Version: v2.0.7
 
 File: netronome/flower/nic_AMDA0099.nffw
 File: netronome/flower/nic_AMDA0096.nffw
