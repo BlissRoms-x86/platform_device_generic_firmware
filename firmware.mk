@@ -12,4 +12,5 @@ LOCAL_FIRMWARES_DIR ?= $(LOCAL_PATH)
 LOCAL_FIRMWARES ?= $(filter-out .git/% %.mk,$(subst ./,,$(shell cd $(LOCAL_FIRMWARES_DIR) && find . -type f)))
 
 PRODUCT_COPY_FILES := \
-    $(foreach f,$(LOCAL_FIRMWARES),$(LOCAL_FIRMWARES_DIR)/$(f):system/lib/firmware/$(f))
+    $(foreach f,$(LOCAL_FIRMWARES),$(LOCAL_FIRMWARES_DIR)/$(f):system/lib/firmware/$(f)) \
+    $(foreach f,$(LOCAL_FIRMWARES),$(LOCAL_FIRMWARES_DIR)/$(f):system/vendor/lib/firmware/$(f))
