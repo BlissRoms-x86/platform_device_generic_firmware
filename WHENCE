@@ -604,14 +604,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5 1G/10/40G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.21.5.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.21.5.0.bin
+File: cxgb4/t4fw-1.22.9.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.22.9.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.21.5.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.21.5.0.bin
-File: cxgb4/t6fw-1.21.5.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.21.5.0.bin
+File: cxgb4/t5fw-1.22.9.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.22.9.0.bin
+File: cxgb4/t6fw-1.22.9.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.22.9.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 
@@ -792,7 +792,7 @@ File: mrvl/sd8801_uapsta.bin
 Version: 14.68.36.p60
 
 File: mrvl/usb8801_uapsta.bin
-Version: W14.68.36.p131
+Version: W14.68.36.p138
 
 File: mrvl/pcieuart8997_combo_v4.bin
 Version: 16.68.1.p70
@@ -1040,7 +1040,7 @@ File: iwlwifi-9000-pu-b0-jf-b0-41.ucode
 Version: 41.fc1a7aea.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-43.ucode
-Version: 43.c73114b3.0
+Version: 43.95eb4e97.0
 
 File: iwlwifi-9260-th-b0-jf-b0-33.ucode
 Version: 33.610294.0
@@ -1055,7 +1055,7 @@ File: iwlwifi-9260-th-b0-jf-b0-41.ucode
 Version: 41.fc1a7aea.0
 
 File: iwlwifi-9260-th-b0-jf-b0-43.ucode
-Version: 43.c73114b3.0
+Version: 43.95eb4e97.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -2218,6 +2218,28 @@ File: amdgpu/raven_rlc.bin
 File: amdgpu/raven_sdma.bin
 File: amdgpu/raven_vcn.bin
 File: amdgpu/raven_dmcu.bin
+File: amdgpu/picasso_asd.bin
+File: amdgpu/picasso_ce.bin
+File: amdgpu/picasso_gpu_info.bin
+File: amdgpu/picasso_me.bin
+File: amdgpu/picasso_mec.bin
+File: amdgpu/picasso_mec2.bin
+File: amdgpu/picasso_pfp.bin
+File: amdgpu/picasso_rlc.bin
+File: amdgpu/picasso_rlc_am4.bin
+File: amdgpu/picasso_sdma.bin
+File: amdgpu/picasso_vcn.bin
+File: amdgpu/raven2_asd.bin
+File: amdgpu/raven2_ce.bin
+File: amdgpu/raven2_gpu_info.bin
+File: amdgpu/raven2_me.bin
+File: amdgpu/raven2_mec.bin
+File: amdgpu/raven2_mec2.bin
+File: amdgpu/raven2_pfp.bin
+File: amdgpu/raven2_rlc.bin
+File: amdgpu/raven2_sdma.bin
+File: amdgpu/raven2_sdma1.bin
+File: amdgpu/raven2_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -2447,6 +2469,8 @@ File: "brcm/brcmfmac43430a0-sdio.ONDA-V80-PLUS.txt"
 File: "brcm/brcmfmac43430-sdio.AP6212.txt"
 File: "brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt"
 File: "brcm/brcmfmac43430-sdio.MUR1DX.txt"
+File: "brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt"
+File: "brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt
 File: "brcm/brcmfmac4356-pcie.gpd-win-pocket.txt"
 
 Licence: GPLv2. See GPL-2 for details.
@@ -3158,21 +3182,21 @@ Version: BT_StonePeak_D0_REL_50_0002
 File: intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
 Version: BT_StonePeak_D1_REL_52_00005
 File: intel/ibt-11-5.ddc
-Version: LnP/SfP_REL0516
+Version: LnP/SfP_REL0522
 File: intel/ibt-11-5.sfi
 Version: BT_LightningPeak_REL0487
 File: intel/ibt-12-16.ddc
-Version: BT_WindStormPeak_REL0285
+Version: BT_WindStormPeak_REL0295
 File: intel/ibt-12-16.sfi
-Version: BT_WindStormPeak_REL0285
+Version: BT_WindStormPeak_REL0295
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0369
+Version: BT_JeffersonPeak_B0_B0_REL0386
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0369
+Version: BT_JeffersonPeak_B0_B0_REL0386
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0369
+Version: BT_JeffersonPeak_B0_B0_REL0386
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0369
+Version: BT_JeffersonPeak_B0_B0_REL0386
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -3182,13 +3206,13 @@ Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL0369
+Version: BT_ThunderPeak_B0_B0_REL0386
 File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL0369
+Version: BT_ThunderPeak_B0_B0_REL0386
 File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL0369
+Version: BT_ThunderPeak_B0_B0_REL0386
 File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL0369
+Version: BT_ThunderPeak_B0_B0_REL0386
 File: intel/ibt-18-0-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
